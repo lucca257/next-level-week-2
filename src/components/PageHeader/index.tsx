@@ -22,6 +22,7 @@ const PageHeader: React.FC<PageHeaderProps> = (props) => {
       <strong>
         {props.title}
       </strong>
+      {props.children}
     </div>
   </header>
   );
