@@ -2,7 +2,6 @@ import express from "express";
 
 const app = express();
 
-
 //convertendo dados recebidos do body em json para objeto
 app.use(express.json());
 
